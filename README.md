@@ -15,22 +15,22 @@ Specifically, the data are camera-trap data from 5 surveys in 4 protected areas 
 The file 'Rocha Sollmann data.R' contains a list with all data necessary to fit the two community occupancy models described in the main text of Rocha and Sollmann 2023, Habitat use patterns suggest that climate-driven vegetation changes will negatively impact mammal communities in the Amazon, Animal Conservation, https://doi.org/10.1111/acv.12853.
 
 The list has the following elements:
-$ Y: array, location by occasion by species-survey, with entries of 1 denoting detection of a species, 0 denoting non-detection, and NA for location-occasions combinations that were not sampled. Data from the 5 surveys are stacked.
-$ covmat: array, survey by location by covariate, with location-specific covariate values (P.Savanna = proportion savanna habitat in 100-m buffer; Hab.type = 0/closed or 1/open; dRio = scaled distance to nearest river; d.PA = scaled distance to protected area border; pWet = proportion of survey in the wet season; sav.sc.ht = proportion of savanna habitat in 100-m buffer, scaled by immediate habitat type; mata = immediate habitat is continuous forest; ripa = immediate habitat is riparian forest; cerr = immediate habitat is savanna; floresta = immediate habitat is forest; sav.sc.ht.01 = not relevant; savG.sc = scaled proportion of savanna habitat in 100-m buffer)
-$ pWET.occ: array, survey by location by occasion, with proportion of sampling occasion in the wet season
-$ species: vector, numeric code for species identity
-$ survey: vector, numeric code for survey identity
-$ region: vector, numeric code for region (north = 1 or south = 2)
-$ K: vector: number of sampling occasions in each survey
-$ Jmax: scalar, maximum number of locations in any survey
-$ nsite: vector, number of locations in each survey
-$ n.survey: scalar, number of surveys
-$ effort.sc: array, survey by location by occasion, with scaled sampling effort
-$ first: array, survey by location, with first occasion with sampling effort
-$ last: array, survey by location, with last occasion with sampling effort
-$ n.spec: scalar, number of species
-$ n.sp.surv: scalar, number of species-survey combinations (not equal to number of surveys times number of species because some species were not detected in all surveys)
-$ sp.names.cor: vector with Brazilian species names, same order as in data set (English names are provided in the R code to run models)
+- Y: array, location by occasion by species-survey, with entries of 1 denoting detection of a species, 0 denoting non-detection, and NA for location-occasions combinations that were not sampled. Data from the 5 surveys are stacked.
+- covmat: array, survey by location by covariate, with location-specific covariate values (P.Savanna = proportion savanna habitat in 100-m buffer; Hab.type = 0/closed or 1/open; dRio = scaled distance to nearest river; d.PA = scaled distance to protected area border; pWet = proportion of survey in the wet season; sav.sc.ht = proportion of savanna habitat in 100-m buffer, scaled by immediate habitat type; mata = immediate habitat is continuous forest; ripa = immediate habitat is riparian forest; cerr = immediate habitat is savanna; floresta = immediate habitat is forest; sav.sc.ht.01 = not relevant; savG.sc = scaled proportion of savanna habitat in 100-m buffer)
+- pWET.occ: array, survey by location by occasion, with proportion of sampling occasion in the wet season
+- species: vector, numeric code for species identity
+- survey: vector, numeric code for survey identity
+- region: vector, numeric code for region (north = 1 or south = 2)
+- K: vector: number of sampling occasions in each survey
+- Jmax: scalar, maximum number of locations in any survey
+- nsite: vector, number of locations in each survey
+- n.survey: scalar, number of surveys
+- effort.sc: array, survey by location by occasion, with scaled sampling effort
+- first: array, survey by location, with first occasion with sampling effort
+- last: array, survey by location, with last occasion with sampling effort
+- n.spec: scalar, number of species
+- n.sp.surv: scalar, number of species-survey combinations (not equal to number of surveys times number of species because some species were not detected in all surveys)
+- sp.names.cor: vector with Brazilian species names, same order as in data set (English names are provided in the R code to run models)
 
 
 In addition, the following code files are available:
