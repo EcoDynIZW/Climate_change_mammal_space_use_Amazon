@@ -1,4 +1,4 @@
-# Rocha and Sollmann (2023) *AnimCOnserv*
+# Rocha and Sollmann (2023) *AnimConserv*
 
 > Rocha DG and **Sollmann R** (2023): Habitat use patterns suggest that climate-driven vegetation changes will negatively impact mammal communities in the Amazon. *Anim Conserv*. DOI: [10.1111/acv.12853](https://doi.org/10.1111/acv.12853)
 
