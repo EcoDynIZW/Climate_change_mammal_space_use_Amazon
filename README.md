@@ -35,15 +35,15 @@ The list has the following elements:
 
 In addition, the following code files are available:
 
-R_code_to_run_model_1.R: R code to load data, prep it for analysis and implement the first model described in the publication, estimating the effect of proportion of savanna habitat (linear and squared) separately by region on species occupancy probability; note: requires Nimble_custom_function.R, and Nimble_model_savQ_27Oct2021.R to be located in the working directory
+- R_code_to_run_model_1.R: R code to load data, prep it for analysis and implement the first model described in the publication, estimating the effect of proportion of savanna habitat (linear and squared) separately by region on species occupancy probability; note: requires Nimble_custom_function.R, and Nimble_model_savQ_27Oct2021.R to be located in the working directory
 
-R_code_to_run_model_2.R: R code to load data, prep it for analysis and implement the second model described in the publication, estimating the effect of proportion of savanna habitat by immediate habitat type and species group on species occupancy probability; note: requires Nimble_custom_function.R, and Nimble_model_sav-geral-intHT_group.R to be located in the working directory
+- R_code_to_run_model_2.R: R code to load data, prep it for analysis and implement the second model described in the publication, estimating the effect of proportion of savanna habitat by immediate habitat type and species group on species occupancy probability; note: requires Nimble_custom_function.R, and Nimble_model_sav-geral-intHT_group.R to be located in the working directory
 
-Nimble_model_savQ_27Oct2021.R: Nimble model code for model 1 (see above)
+- Nimble_model_savQ_27Oct2021.R: Nimble model code for model 1 (see above)
 
-Nimble_model_sav-geral-intHT_group.R: Nimble model code for model 2 (see above)
+- Nimble_model_sav-geral-intHT_group.R: Nimble model code for model 2 (see above)
 
-Nimble_custom_function.R: Some custom distribution functions used in Nimble model code (vectorizing over occasions, integrating out occupancy state)
+- Nimble_custom_function.R: Some custom distribution functions used in Nimble model code (vectorizing over occasions, integrating out occupancy state)
 
 
 ## Sharing/Access information
